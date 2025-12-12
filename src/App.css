@@ -22,7 +22,7 @@
 .masonry-grid {
   display: flex;
   width: 100%;
-  gap: 10px;
+  gap: 20px;
 }
 
 .masonry-grid_column {
@@ -31,7 +31,8 @@
 
 /* Espaciado entre items */
 .masonry-grid_column > .masonry-item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+
 }
 
 .masonry-item {
@@ -64,10 +65,10 @@
   }
   
   .masonry-grid {
-    gap: 8px;
+    gap: 15px;
   }
   
   .masonry-grid_column > .masonry-item {
-    margin-bottom: 8px;
+    margin-bottom: 15px;
   }
 }
