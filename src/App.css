@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 20px 10px;
+}
+
+.title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Configuración del grid Masonry */
+.masonry-grid {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.masonry-grid_column {
+  background-clip: padding-box;
+}
+
+/* Espaciado entre items */
+.masonry-grid_column > .masonry-item {
+  margin-bottom: 10px;
+}
+
+.masonry-item {
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.masonry-item:hover {
+  transform: scale(1.02);
+}
+
+.masonry-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Optimización para móviles */
+@media (max-width: 480px) {
+  .app-container {
+    padding: 15px 8px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .masonry-grid {
+    gap: 8px;
+  }
+  
+  .masonry-grid_column > .masonry-item {
+    margin-bottom: 8px;
+  }
+}
