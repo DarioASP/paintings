@@ -6,7 +6,7 @@ import './App.css';
 import dibujo1 from './assets/dibujo1.PNG'; // vertical
 import dibujo2 from './assets/dibujo2.PNG'; // horizontal
 import dibujo3 from './assets/dibujo3.PNG'; // vertical
-import dibujo4 from './assets/dibujo1.PNG'; // horizontal
+import dibujo4 from './assets/dibujo0.PNG'; // horizontal
 
 function App() {
   const images = [
